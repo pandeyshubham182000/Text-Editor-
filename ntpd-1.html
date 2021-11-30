@@ -1,0 +1,218 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>भोजपत्र 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="ntpd-1.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images.jpg" id="nav_icon">भोजपत्र</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!--header-->
+    <marquee behavior="alternate"><b>
+            <h7>👮‍♀️&nbsp;&nbsp;Developed By:- Shubham Pandey &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;🏠&nbsp;&nbsp; Product Of:-
+                Shiv Shankar Kaialash Pati Trilokinath Pvt.Ltd &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 📞 &nbsp;&nbsp; 7236019575
+            </h7>
+        </b>
+    </marquee>
+
+    <!--containers-->
+
+    <!--container1-->
+    <div class="containers" id="container1">
+        <label id="c1_header"> Effects</label>
+        <div class="effect_container">
+            <label class="effect_container_header">Text Design</label>
+            <abbr title="Bold"><button type="button" id="bold" class="R1btn">&nbsp;B&nbsp;</button></abbr>
+            <abbr title="Italic"><button type="button" id="italic"
+                    class="R1btn">&nbsp;&nbsp;I&nbsp;&nbsp;</button></abbr>
+            <abbr title="Underline"> <button type="button" id="underline" class="R1btn">&nbsp;U&nbsp;</button></abbr>
+            <abbr title="Del"><button type="button" class="R1btn" id="del"><del>Del</del></button></abbr>
+            <abbr title="Add Backgroud Audio"><button type="button" class="R1btn" id="undo">&nbsp; ⤴&nbsp;
+                </button></abbr>
+            <abbr title="Add Background Video"><button type="button" class="R1btn" id="redo">&nbsp; ⤵&nbsp;
+                </button></abbr>
+            <abbr title="Set Fontstyle"><select name="cars" id="fontstyle">
+                    <option value="volvo">Times New Roman</option>
+                    <option value="saab">Georgia</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Garamond</option>
+                    <option value="volvo">Times New Roman</option>
+                    <option value="saab">Georgia</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Garamond</option>
+                    <option value="volvo">Times New Roman</option>
+                    <option value="saab">Georgia</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Garamond</option>
+                </select>
+            </abbr>
+            <abbr title="Font Size "><div id="fontradio"><b>Font Size</b><br></div>
+
+            <abbr title="Make Selected Text Link "> <button type="button" class="R1btn"
+                    id="link">&nbsp;Link&nbsp;</button>
+            </abbr>
+
+            <abbr title="Make Selected Text Subscript"> <button type="button" class="R1btn"
+                    id="sub">&nbsp;X<sub><b>2</b></sub>&nbsp;</button>
+            </abbr>
+            <abbr title="Make Selected Text Superscript"> <button type="button" class="R1btn"
+                    id="sup">&nbsp;X<sup><b>2</b></sup>&nbsp;</button>
+            </abbr>
+            <abbr title="Make Selected Text Link "> <button type="button" class="R1btn" id="textdec">&nbsp;A<sup><b>-</b></sup>&nbsp;</button></abbr>
+
+            <abbr title="Make Selected Text Superscript"> <button type="button" class="R1btn"
+                    id="textinc">&nbsp;A<sup><b>+</b></sup>&nbsp;</button>
+            </abbr>
+
+            <abbr title="Insert Flag"> <button type="button" class="R1btn" id="flag">&nbsp;🇮🇳
+                &nbsp;</button>
+            </abbr>
+
+            <abbr title="Delete The Effect"> <button type="button" class="R1btn" id="remove">&nbsp;Delete&nbsp;</button></abbr>
+
+            <abbr title="Set FontColor"><input type="text" placeholder="Choose Font Color" class="colorText" id="colorTextdisp"></abbr>
+            <abbr title="Choose Font Color"> <input type="color" class="color" id="textColor"></abbr>
+            <abbr title="Set Background"><input type="text" placeholder="Choose Background" class="colorText" id="bgcolorOfTextDisp"></abbr>
+            <abbr title="Choose Background Color"> <input class="color" type="color" id="bgcolorOfText"></abbr>
+
+        </div>
+
+        <!---->
+        <div class="effect_container">
+            <label class="effect_container_header">Page Background </label>
+            <span>* Please click on 1<sup>st</sup>image firstly</span>
+            <img src="35.jpeg" class="bg_changer" id="img1">
+            <img src="36.jpg" class="bg_changer" id="img2">
+            <img src="37.jpg" class="bg_changer" id="img3">
+            <img src="38.jpg" class="bg_changer" id="img4">
+            <img src="39.jpg" class="bg_changer" id="img5">
+            <img src="40.jpg" class="bg_changer" id="img6">
+            <img src="41.jpg" class="bg_changer" id="img7">
+            <img src="42.jpg" class="bg_changer" id="img8">
+            <img src="43.jpg" class="bg_changer" id="img9">
+            <img src="44.jpg" class="bg_changer" id="img10">
+            <img src="45.jpg" class="bg_changer" id="img11">
+            <img src="46.jpg" class="bg_changer" id="img12">
+            <img src="47.jpg" class="bg_changer" id="img13">
+            <img src="48.jpg" class="bg_changer" id="img14">
+            <img src="49.jpg" class="bg_changer" id="img15">
+            <img src="50.jpg" class="bg_changer" id="img16">
+            <img src="51.jpg" class="bg_changer" id="img17">
+            <img src="52.png" class="bg_changer" id="img18">
+            <img src="53.jpg" class="bg_changer" id="img19">
+            <img src="54.jpg" class="bg_changer" id="img20">
+            <img src="55.jpg" class="bg_changer" id="img21">
+            <img src="56.jpg" class="bg_changer" id="img22">
+            <img src="57.jpg" class="bg_changer" id="img23">
+            <img src="58.jpg" class="bg_changer" id="img24">
+            <img src="59.jpg" class="bg_changer" id="img25">
+            <img src="60.jpg" class="bg_changer" id="img26">
+            <img src="61.jpg" class="bg_changer" id="img27">
+            <img src="62.jpg" class="bg_changer" id="img28">
+            <img src="63.jpg" class="bg_changer" id="img29">
+            <img src="64.jpg" class="bg_changer" id="img30">
+            <img src="65.jpg" class="bg_changer" id="img31">
+            <img src="66.jpg" class="bg_changer" id="img32">
+            <img src="67.jpg" class="bg_changer" id="img33">
+            <img src="68.jpg" class="bg_changer" id="img34">
+            <img src="69.jpg" class="bg_changer" id="img35">
+            <img src="70.jpg" class="bg_changer" id="img36">
+            <img src="71.jpg" class="bg_changer" id="img37">
+            <img src="72.jpg" class="bg_changer" id="img38">
+            <img src="73.jpg" class="bg_changer" id="img39">
+            <img src="74.jpg" class="bg_changer" id="img40">
+            <img src="75.jpg" class="bg_changer" id="img41">
+            <img src="76.jpg" class="bg_changer" id="img42">
+            <img src="77.jpg" class="bg_changer" id="img43">
+            <img src="78.jpg" class="bg_changer" id="img44">
+            <img src="79.jpg" class="bg_changer" id="img45">
+            <img src="80.jpg" class="bg_changer" id="img46">
+            <img src="81.jpg" class="bg_changer" id="img47">
+            <img src="82.jpg" class="bg_changer" id="img48"><br>
+            <abbr title="Choose Backgroud Color"><input type="text" placeholder="Solid Background" class="colorText"
+                    id="page_bg_color_value"></abbr>
+            <abbr title="Choose Background Color"> <input class="color" type="color" id="page_bg_color"></abbr>
+            <abbr title="Paste Url"><input type="text" placeholder="Paste Image Url" id="urlClass"></abbr>
+
+
+        </div>
+
+        <!--Paragraphs-->
+        <div class="effect_container">
+            <label class="effect_container_header">Paragraph Editing</label>
+            <abbr title="Convert To UpperCase"><button type="button" class="R1btn"
+                    id="upcase">&nbsp;ABC&nbsp;</button></abbr>
+            <abbr title="Convert To LowerCase"><button type="button" class="R1btn" id="lower">&nbsp;abc&nbsp;</button></abbr>
+            <abbr title="Place selected text in center"><button type="button" class="R1btn" id="centera">&nbsp;Center&nbsp;</button></abbr>
+            <abbr title="Place selected text in left"><button type="button" class="R1btn" id="lefta">&nbsp;Left&nbsp;</button></abbr>
+            <abbr title="Place selected text in right"><button type="button" class="R1btn" id="righta">&nbsp;Right&nbsp;</button></abbr>
+            <abbr title="Place selected text in paragraph type"><button type="button" class="R1btn" id="para">&nbsp;Para&nbsp;</button></abbr>
+            <abbr title="Remove all formatting from selected text"><button type="button" class="R1btn" id="rmvfrmt">&nbsp;🚫 Format&nbsp;</button></abbr>
+            <abbr title="Selected All"><button type="button" class="R1btn" id="SelectedAll">&nbsp;Selected All&nbsp;</button></abbr>
+            <abbr title="Cut"><button type="button" class="R1btn" id="Cut">⚔️</button></abbr>
+            <abbr title="Copy"><button type="button" class="R1btn" id="Copy">&nbsp;📝&nbsp;</button></abbr>
+            <abbr title="Paste"><button type="button" class="R1btn" id="Paste">📌</button></abbr>
+
+        </div>
+        <br><br><br>
+    </div>
+
+    <!--container2-->
+    <div class="containers" id="workarea" onkeypress="return (this.innerText.length <= 1500)" contenteditable="true">
+        <!--<textarea id="workarea" maxlength="500" placeholder="Type Your Text Here"></textarea>-->
+    </div>
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+<script src="ntpd-1.js"></script>
+
+</html>
