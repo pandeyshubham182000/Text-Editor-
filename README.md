@@ -5,8 +5,6 @@
 4) Background can be a Image, color and can be choosen from the link
 
 Technology used :
-1) HTML
-2) Bootstrap 
-3) CSS
+1) HTML, CSS, Bootstrap 
 4) Javascript
 5) Jquery
