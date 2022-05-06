@@ -172,203 +172,203 @@ $("#urlClass").on("change", function(event) {
 
 //IMAGES CLICK FUNCTION
 $("#img1").on("click", function(event) {
-    page.css({ "background-image": "url('35.jpeg')", "background-size": "100% 100%" });
+    page.css({ "background-image": "url('Image/35.jpeg')", "background-size": "100% 100%" });
 });
 
 $("#img2").on("click", function(event) {
-    page.css({ "background-image": "url('36.jpg')", "background-size": "100% 100%" });
+    page.css({ "background-image": "url('Image/36.jpg')", "background-size": "100% 100%" });
 });
 
 $("#img3").on("click", function(event) {
-    page.css({ "background-image": "url('37.jpg')", "background-size": "100% 100%", });
+    page.css({ "background-image": "url('Image/37.jpg')", "background-size": "100% 100%", });
 
 });
 
 $("#img4").on("click", function(event) {
-    page.css("background-image", "url('38.jpg')");
+    page.css("background-image", "url('Image/38.jpg')");
 
 });
 
 $("#img5").on("click", function(event) {
-    page.css("background-image", "url('39.jpg')");
+    page.css("background-image", "url('Image/39.jpg')");
 
 });
 
 $("#img6").on("click", function(event) {
-    page.css("background-image", "url('40.jpg')");
+    page.css("background-image", "url('Image/40.jpg')");
 });
 
 $("#img7").on("click", function(event) {
-    page.css("background-image", "url('41.jpg')");
+    page.css("background-image", "url('Image/41.jpg')");
 });
 
 $("#img8").on("click", function(event) {
-    page.css("background-image", "url('42.jpg')");
+    page.css("background-image", "url('Image/42.jpg')");
 });
 
 $("#img9").on("click", function(event) {
-    page.css("background-image", "url('43.jpg')");
+    page.css("background-image", "url('Image/43.jpg')");
 });
 
 $("#img10").on("click", function(event) {
-    page.css("background-image", "url('44.jpg')");
+    page.css("background-image", "url('Image/44.jpg')");
 });
 
 $("#img11").on("click", function(event) {
-    page.css("background-image", "url('45.jpg')");
+    page.css("background-image", "url('Image/45.jpg')");
 });
 
 $("#img12").on("click", function(event) {
-    page.css("background-image", "url('46.jpg')");
+    page.css("background-image", "url('Image/46.jpg')");
 });
 
 $("#img13").on("click", function(event) {
-    page.css("background-image", "url('47.jpg')");
+    page.css("background-image", "url('Image/47.jpg')");
 });
 
 $("#img14").on("click", function(event) {
-    page.css("background-image", "url('48.jpg')");
+    page.css("background-image", "url('Image/48.jpg')");
 });
 
 $("#img15").on("click", function(event) {
-    page.css("background-image", "url('49.jpg')");
+    page.css("background-image", "url('Image/49.jpg')");
 
 });
 
 $("#img16").on("click", function(event) {
-    page.css("background-image", "url('50.jpg')");
+    page.css("background-image", "url('Image/50.jpg')");
 });
 
 $("#img17").on("click", function(event) {
-    page.css("background-image", "url('51.jpg')");
+    page.css("background-image", "url('Image/51.jpg')");
 });
 
 $("#img18").on("click", function(event) {
-    page.css("background-image", "url('52.png')");
+    page.css("background-image", "url('Image/52.png')");
 });
 
 $("#img19").on("click", function(event) {
-    page.css("background-image", "url('53.jpg')");
+    page.css("background-image", "url('Image/53.jpg')");
 });
 
 $("#img20").on("click", function(event) {
-    page.css("background-image", "url('54.jpg')");
+    page.css("background-image", "url('Image/54.jpg')");
 });
 
 $("#img21").on("click", function(event) {
-    page.css("background-image", "url('55.jpg')");
+    page.css("background-image", "url('Image/55.jpg')");
 });
 
 $("#img22").on("click", function(event) {
-    page.css("background-image", "url('56.jpg')");
+    page.css("background-image", "url('Image/56.jpg')");
 });
 
 $("#img23").on("click", function(event) {
-    page.css("background-image", "url('57.jpg')");
+    page.css("background-image", "url('Image/57.jpg')");
 });
 
 $("#img24").on("click", function(event) {
-    page.css("background-image", "url('58.jpg')");
+    page.css("background-image", "url('Image/58.jpg')");
 });
 
 $("#img25").on("click", function(event) {
-    page.css("background-image", "url('59.jpg')");
+    page.css("background-image", "url('Image/59.jpg')");
 });
 
 $("#img26").on("click", function(event) {
-    page.css({ "background-image": "url('60.jpg')", "background-size": "100% 100%" });
+    page.css({ "background-image": "url('Image/60.jpg')", "background-size": "100% 100%" });
 });
 
 $("#img27").on("click", function(event) {
-    page.css({ "background-image": "url('61.jpg')", "background-size": "100% 100%", });
+    page.css({ "background-image": "url('Image/61.jpg')", "background-size": "100% 100%", });
 
 });
 
 $("#img28").on("click", function(event) {
-    page.css("background-image", "url('62.jpg')");
+    page.css("background-image", "url('Image/62.jpg')");
 
 });
 
 $("#img29").on("click", function(event) {
-    page.css("background-image", "url('63.jpg')");
+    page.css("background-image", "url('Image/63.jpg')");
 
 });
 
 $("#img30").on("click", function(event) {
-    page.css("background-image", "url('64.jpg')");
+    page.css("background-image", "url('Image/64.jpg')");
 });
 
 $("#img31").on("click", function(event) {
-    page.css("background-image", "url('65.jpg')");
+    page.css("background-image", "url('Image/65.jpg')");
 });
 
 $("#img32").on("click", function(event) {
-    page.css("background-image", "url('66.jpg')");
+    page.css("background-image", "url('Image/66.jpg')");
 });
 
 $("#img33").on("click", function(event) {
-    page.css("background-image", "url('67.jpg')");
+    page.css("background-image", "url('Image/67.jpg')");
 });
 
 $("#img34").on("click", function(event) {
-    page.css("background-image", "url('68.jpg')");
+    page.css("background-image", "url('Image/68.jpg')");
 });
 
 $("#img35").on("click", function(event) {
-    page.css("background-image", "url('69.jpg')");
+    page.css("background-image", "url('Image/69.jpg')");
 });
 
 $("#img36").on("click", function(event) {
-    page.css("background-image", "url('70.jpg')");
+    page.css("background-image", "url('Image/70.jpg')");
 });
 
 $("#img37").on("click", function(event) {
-    page.css("background-image", "url('71.jpg')");
+    page.css("background-image", "url('Image/71.jpg')");
 });
 
 $("#img38").on("click", function(event) {
-    page.css("background-image", "url('72.jpg')");
+    page.css("background-image", "url('Image/72.jpg')");
 });
 
 $("#img39").on("click", function(event) {
-    page.css("background-image", "url('73.jpg')");
+    page.css("background-image", "url('Image/73.jpg')");
 
 });
 
 $("#img40").on("click", function(event) {
-    page.css("background-image", "url('74.jpg')");
+    page.css("background-image", "url('Image/74.jpg')");
 });
 
 $("#img41").on("click", function(event) {
-    page.css("background-image", "url('75.jpg')");
+    page.css("background-image", "url('Image/75.jpg')");
 });
 
 $("#img42").on("click", function(event) {
-    page.css("background-image", "url('76.jpg')");
+    page.css("background-image", "url('Image/76.jpg')");
 });
 
 $("#img43").on("click", function(event) {
-    page.css("background-image", "url('77.jpg')");
+    page.css("background-image", "url('Image/77.jpg')");
 });
 
 $("#img44").on("click", function(event) {
-    page.css("background-image", "url('78.jpg')");
+    page.css("background-image", "url('Image/78.jpg')");
 });
 
 $("#img45").on("click", function(event) {
-    page.css("background-image", "url('79.jpg')");
+    page.css("background-image", "url('Image/79.jpg')");
 });
 
 $("#img46").on("click", function(event) {
-    page.css("background-image", "url('80.jpg')");
+    page.css("background-image", "url('Image/80.jpg')");
 });
 
 $("#img47").on("click", function(event) {
-    page.css("background-image", "url('81.jpg')");
+    page.css("background-image", "url('Image/81.jpg')");
 });
 
 $("#img48").on("click", function(event) {
-    page.css("background-image", "url('82.jpg')");
+    page.css("background-image", "url('Image/82.jpg')");
 });
 
 
